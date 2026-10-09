@@ -19,6 +19,7 @@ def average(arr):
         return sum_array(arr) / len(arr)
     return None
 
+
 def reverse_array(arr):
     return arr[::-1]
 
