@@ -16,9 +16,8 @@ def min_element(arr):
 
 def average(arr):
     if len(arr) != 0:
-        return sum_array(arr) // len(arr)
+        return sum_array(arr) / len(arr)
     return None
-
 
 def reverse_array(arr):
     return arr[::-1]
@@ -40,7 +39,7 @@ def count_negative(arr):
 
 
 def remove_duplicates(arr):
-    return list(arr)
+    return list(set(arr))
 
 
 def sort_array(arr):
